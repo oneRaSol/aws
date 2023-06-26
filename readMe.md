@@ -4,30 +4,26 @@
 
 ![](https://camo.githubusercontent.com/992babdffd8c74a1502de375fbdf7e4d54773242/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f53576f536b4e36447854737a71494b4571762f67697068792e676966)
 
-### Course-end Project 3
+### Dockerizing Angular - 4
+ 4
 
-This is a Full Stack Website Development project. Developing an **online chat portal** to allow team members to chat and also store the messages in the database.
+This is a Full Stack Website Development project. Developing an **online Angular app** to be deployed thru a Docker container on an AWS EC2 instance. A cloud virtual machine, so that other developers can access and modify it if required.
 
-- **The tools used for development are:** ```Visual Studio Code```, ```.Bootstrap 5.0```, ```HTML/CSS```, ```.Javascript``` ```.Github``` ```.Github Project Manager```, ```NodeJS```, ```MongoDB```
+- **The tools used for development are:** ```Visual Studio Code```, ```Docker```, ```HTML/CSS```, ```.Angular CLI``` ```.Github``` ```.Github Project Manager```, ```NodeJS```, ```json-server```
 
 
 **Required dependencies to development this app:**
 
-  > 1. Socket.io.
-  > 2. Mongoose.
-  > 3. Cors.
-  > 4. body-parser.
-  > 7. winston.
-  > 8. express-socket.io-session.
-  > 9. express-session.
-  > 10 .nodemon.
-  > 11. socket.io-client.
+  > 1. Docker Hub.
+  > 2. json-server.
+  > 3. git bash
+  > 4. SSH.
+  > 7. AWS EC2 instance.
   
   **Required tools to check data while creating data flow:**
   
-  > 1. Compass.
-  > 2. Postman.
-  > 3. Browser development tools Chrome and Firefox.
+  > 1. Docker desktop.
+  > 2. Browser development tools Chrome and Firefox.
 
 **Required commands to run front-end for this app:**
 
@@ -36,40 +32,50 @@ This is a Full Stack Website Development project. Developing an **online chat po
   
   **Required commands to run back-end for this app:**
 
+  > 1. npm run server.
+
+  **Required commands to build the development & production container for this app:**
+
   > 1. npm install.
-  > 2. node index.js.
+  > 2. ng serve.
 
 **REQUIRED OBJECTIVES MET:**
 
   > 1. The source codes is tracked on this GitHub repositories.
-  > 2. The tracked files are ignored during the pushes to my GitHub repository in order to track the tasks.
-  > 3. I also shared the link of this repository in the document submitted.
-  > 4. I also shared the link of this repository and to the project management board in the project  submitted.
+  > 2. Document the tracked files that are ignored during the final push to the GitHub repository.
+  > 3.  Submission of your GitHub repository link is mandatory in order to track your task.
+  > 4. I also shared the link of this repository in the document submitted.
+  > 5.  The step-by-step process involved in completing this task be documented.
 
 ---
-
 **THE DEVELOPMENT STEPS:**
 
-- [Site layout](#markdown)
-- [Site Features](#markdown-syntax-extensions)
-  - [Login ](#markdown-extended-mde)
-  - [Chat / Send-Read messages](#markdown-extended-mde) 
-  - [Store all message in database](#markdown-extended-mde)
-
-
-# Gathering stage
-
- The features for the chatRoom app has decided to allow the user to login before starting to Chat. The results will be shown to them once message is sent.
-
-**Socket.io**, polling and emitting data to front-end and database.
-
-- **👉 PWA**, I applied PWA to project-2.
-
-- **👉 PWA**, This project was done mostly on my own so far. We were not provided a working model using Angular and Node as a reference which made it harder.
-
+- [Deployed Angular Container to AWS ](#markdown)
+- [Stages to be developed](#markdown-syntax-extensions)
+  - [Create app working with json-server as backend feature ](#markdown-extended-mde)
+  - [Create dev container and production container.](#markdown-extended-mde) 
+  - [Create a docker-compose-prod file for production deployment to AWS.](#markdown-extended-mde)
+- [Container repositories](#markdown-syntax-extensions)
+  - [Upload Images to Docker Hub ](#markdown-extended-mde)
+  - [Upload Images to GitHub to Docker Hubs packages](#markdown-extended-mde) 
+  - [Create a docker-compose-prod file for production deployment to AWS.](#markdown-extended-mde)
+- [AWS EC2 Instance](#markdown-syntax-extensions)
+   - [Install AWs Cli](#markdown-extended-mde)
+  - [install git-bash](#markdown-extended-mde) 
+  - [Launch an EC2 AWS Instance](#markdown-extended-mde)
+    - [name - my-ec2-instance](#markdown-extended-mde)
+     - [select linux 64bit x86 - hardware](#markdown-extended-mde)
+      - [Instance type - t2.micro](#markdown-extended-mde)
+      - [Generate new key pair use .rsa and .pem](#markdown-extended-mde)
+         - [Download  file to mykeys-folder for SSH .pem login](#markdown-extended-mde)
+- [Load Dependencies for instance](#markdown-syntax-extensions)
+  - [install nodejs ](#markdown-extended-mde)
+  - [install Docker](#markdown-extended-mde)
+  - [Use SSH command to upload image files to instance](#markdown-extended-mde) 
+  
 ---
 
 Credit: [John Bonnett]
 
-Last Edited on: 06/09/2023
+Last Edited on: 06/026/2023
 
