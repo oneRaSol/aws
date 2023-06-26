@@ -52,7 +52,7 @@ This is a Full Stack Website Development project. Developing an **online Angular
 
 - [Deployed Angular Container to AWS ](#markdown)
 - [Stages to be developed](#markdown-syntax-extensions)
-  - [Create app working with json-server as backend feature ](#markdown-extended-mde)
+  - [Create dynamic Angular app working with json-server as backend feature ](#markdown-extended-mde)
   - [Create dev container and production container.](#markdown-extended-mde) 
   - [Create a docker-compose-prod file for production deployment to AWS.](#markdown-extended-mde)
 - [Container repositories](#markdown-syntax-extensions)
@@ -72,6 +72,11 @@ This is a Full Stack Website Development project. Developing an **online Angular
   - [install nodejs ](#markdown-extended-mde)
   - [install Docker](#markdown-extended-mde)
   - [Use SSH command to upload image files to instance](#markdown-extended-mde) 
+
+- [To test container in browser](#markdown-syntax-extensions)
+  - [set Inbound security rules](#markdown-extended-mde)
+  - [Port range - 80:80-9999](#markdown-extended-mde)
+  - [Custom TCP Anywhere - IPV4](#markdown-extended-mde)   
   
 ---
 
