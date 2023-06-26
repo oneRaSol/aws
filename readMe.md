@@ -20,7 +20,8 @@ This app connects the frontend to a json-server. A Devlopment Dockefile.dev for 
   > 2. json-server.
   > 3. git bash terminal.
   > 4. SSH.
-  > 7. AWS EC2 instance.
+  > 5. AWS EC2 instance.
+  > 6. NgINX server.
   
   **Required tools to check data while creating data flow:**
   
