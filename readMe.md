@@ -9,6 +9,8 @@
 
 This is a Full Stack Website Development project. Developing an **online Angular app** to be deployed thru a Docker container on an AWS EC2 instance. A cloud virtual machine, so that other developers can access and modify it if required.
 
+This app connects the frontend to a json-server. A Devlopment Dockefile.dev for local and a Production Dockerfile.prod to deploy are created. Also created are Docker-compose file for both production and development.
+
 - **The tools used for development are:** ```Visual Studio Code```, ```Docker```, ```HTML/CSS```, ```.Angular CLI``` ```.Github``` ```.Github Project Manager```, ```NodeJS```, ```json-server```
 
 
@@ -16,7 +18,7 @@ This is a Full Stack Website Development project. Developing an **online Angular
 
   > 1. Docker Hub.
   > 2. json-server.
-  > 3. git bash
+  > 3. git bash terminal.
   > 4. SSH.
   > 7. AWS EC2 instance.
   
