@@ -8,7 +8,8 @@
 
 This is a Full Stack Website Development project. Developing an **online Angular app** to be deployed thru a Docker container on an AWS EC2 instance. A cloud virtual machine, so that other developers can access and modify it if required.
 
-This app connects the frontend to a json-server. A Devlopment Dockefile.dev for local and a Production Dockerfile.prod to deploy are created. Also created are Docker-compose file for both production and development.
+This app connects the frontend to a json-server. A Devlopment Dockefile.dev for local use and a Production Dockerfile.prod for deployment are created. Also created are Docker-compose file for both production and development.
+The code and images are stored here and also on Docker Hub. 
 
 - **The tools used for development are:** ```Visual Studio Code```, ```Docker```, ```HTML/CSS```, ```.Angular CLI``` ```.Github``` ```.Github Project Manager```, ```NodeJS```, ```json-server```
 
@@ -45,9 +46,8 @@ This app connects the frontend to a json-server. A Devlopment Dockefile.dev for 
 
   > 1. The source codes is tracked on this GitHub repositories.
   > 2. Document the tracked files that are ignored during the final push to the GitHub repository.
-  > 3.  Submission of your GitHub repository link is mandatory in order to track your task.
-  > 4. I also shared the link of this repository in the document submitted.
-  > 5.  The step-by-step process involved in completing this task be documented.
+  > 3.  Submission of GitHub repository link is mandatory in order to track your task.
+  > 4.  The step-by-step process involved in completing this task documented below.
 
 ---
 **THE DEVELOPMENT STEPS:**
